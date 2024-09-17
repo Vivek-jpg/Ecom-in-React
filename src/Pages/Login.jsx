@@ -11,7 +11,7 @@ const Login = () => {
               <p className='heading-login' >LogIn</p>
               </div>
               <label className="label" for="input">Email adress</label>
-              <input className="input-lg" type="email" placeholder="Enter Email"/>
+              <input className="input-lg" type="email" placeholder="Enter  dcb,cdbsEmail"/>
               <label className="label" for="input">Password</label>
               <input className="input-lg" type="password" placeholder="************"/>
               <div class="input-check-btn">
@@ -21,7 +21,7 @@ const Login = () => {
               </div>
               <NavLink to ="/"><a className="Login-btn">Login</a></NavLink>
               <div className="login-create-acc">
-              <NavLink to = "/signIn"><button className='create-new-acc'>Create New Account</button></NavLink>
+              <NavLink to = "/signIn"><button class='focus:outline-none p-3 m-4  pw-3text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900"'>Create New Account</button></NavLink>
               </div>
               </div>
         </div>

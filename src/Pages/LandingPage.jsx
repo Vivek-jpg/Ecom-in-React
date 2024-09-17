@@ -9,6 +9,9 @@ function LandingPage() {
     return (
         <>
     <Navbar/>
+    <h1 class="text-3xl font-bold underline">
+    Hello world!
+  </h1>
     <CardComponent/>
     <Heading/>
     <Cardcategory/>

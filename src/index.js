@@ -17,10 +17,10 @@ ReactDOM.render(
     <BrowserRouter>
        <CartProvider> 
         <WishListProvider>
-         <ProductPageProvider>
-           <App />
+          <ProductPageProvider>
+            <App />
           </ProductPageProvider>
-          </WishListProvider>
+         </WishListProvider>
          </CartProvider> 
        </BrowserRouter>
      </React.StrictMode>,
